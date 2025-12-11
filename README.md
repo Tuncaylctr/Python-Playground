@@ -1,2 +1,3 @@
 Welcome to my **Python Playground**! 🎉  
-***i think name is pretty self-explanatory***
+*I think the name is pretty self-explanatory… but here we are anyway *
+
