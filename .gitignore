@@ -5,4 +5,5 @@ env/
 venv/
 *.pyc
 *.pyo
-*.pyd      
+*.pyd 
+.idea     
