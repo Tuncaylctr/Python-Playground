@@ -1,4 +1,4 @@
-# fastapi dev main.py
+# fastapi dev books.py
 # curl http://localhost:8000
 
 # from fastapi import FastAPI
@@ -10,7 +10,7 @@
 #     return {"message": "Hello World"} 
 
 
-#fastapi dev main.py
+#fastapi dev books.py
 #  curl \-H 'Content-Type: application/json' \ "http://localhost:8000?name=Steve" 
 # curl -H 'Content-Type: application/json' 'http://localhost:8000?name=Steve' that one is better 
 
@@ -36,7 +36,7 @@
 #     expiration: date = None
 
 
-#fastapi dev main.py
+#fastapi dev books.py
 #curl -X POST -H 'Content-Type: application/json' -d '{"name": "bananas"}' http://localhost:8000
 
 # from fastapi import FastAPI
@@ -55,7 +55,7 @@
 #     return {"message": f"We have {name}"}
 
 
-# #fastapi dev main.py
+# #fastapi dev books.py
 # #curl -X PUT -H 'Content-Type: application/json' -d '{"name": "bananas", "description": "Delicious!"}' http://localhost:8000/items
 
 # from fastapi import FastAPI
@@ -81,7 +81,7 @@
 
 
 
-# #fastapi dev main.py
+# #fastapi dev books.py
 # # curl -X DELETE -H 'Content-Type: application/json' -d '{"name": "bananas"}' http://localhost:8000/items
 
 # from fastapi import FastAPI
@@ -105,7 +105,7 @@
 
 
 
-# #fastapi dev main.py
+# #fastapi dev books.py
 # # curl -X DELETE  -H 'Content-Type: application/json' -d '{"name": "bananas"}' http://localhost:8000/items
 
 # from fastapi import FastAPI, HTTPException
@@ -132,7 +132,7 @@
 #     return {}
 
 
-# #fastapi dev main.py
+# #fastapi dev books.py
 # #curl -X DELETE -H 'Content-Type: application/json'  -d '{"name": "rock"}' http://localhost:8000/items curl -X DELETE -H 'Content-Type: application/json' -d '{"name": "roll"}' http://localhost:8000/items
 # from fastapi import FastAPI, HTTPException
 # from pydantic import BaseModel

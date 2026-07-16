@@ -43,7 +43,7 @@ def delete(item: Item):
     return {"message": f"Deleted {name}."}
 
 
-#fastapi dev main.py
+#fastapi dev books.py
 # curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{"name": "rock"}' \
